@@ -1,3 +1,6 @@
+https://weatherforecastingapp.lovable.app/
+https://weatherforecastingapp.lovable.app/
+
 
 **Edit a file directly in GitHub**
 
