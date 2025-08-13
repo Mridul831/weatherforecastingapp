@@ -24,6 +24,13 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				weather: {
+					sunny: 'hsl(var(--weather-sunny))',
+					cloudy: 'hsl(var(--weather-cloudy))',
+					rainy: 'hsl(var(--weather-rainy))',
+					stormy: 'hsl(var(--weather-stormy))',
+					snow: 'hsl(var(--weather-snow))',
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -62,6 +69,23 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-sunny': 'var(--gradient-sunny)',
+				'gradient-cloudy': 'var(--gradient-cloudy)',
+				'gradient-rainy': 'var(--gradient-rainy)',
+				'gradient-stormy': 'var(--gradient-stormy)',
+				'gradient-clear': 'var(--gradient-clear)',
+				'gradient-night': 'var(--gradient-night)',
+			},
+			backgroundColor: {
+				'glass': 'hsl(var(--glass-bg))',
+			},
+			borderColor: {
+				'glass': 'hsl(var(--glass-border))',
+			},
+			backdropBlur: {
+				'glass': '20px',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
